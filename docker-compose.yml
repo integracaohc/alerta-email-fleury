@@ -1,0 +1,9 @@
+services:
+  relatorio-oracle:
+    build: .
+    container_name: relatorio-oracle-diario
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/var/log
