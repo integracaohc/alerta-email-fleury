@@ -1,7 +1,7 @@
 services:
-  relatorio-oracle:
+  relatorio-diario-fleury:
     build: .
-    container_name: relatorio-oracle-diario
+    container_name: relatorio-diario-fleury
     restart: unless-stopped
     env_file:
       - .env

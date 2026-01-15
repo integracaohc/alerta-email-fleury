@@ -1,1 +1,1 @@
-0 7 * * 1-5 /app/go-email >> /var/log/cron.log 2>&1
+0 7 * * 1-5 /app/go-email-fleury >> /var/log/cron.log 2>&1
